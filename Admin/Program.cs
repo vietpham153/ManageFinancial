@@ -11,7 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 //Register Syncfusion license
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf0x1WmFZfVtgfV9HYlZRQWY/P1ZhSXxXd0dhXn1fcXZVQ2NUV0Y=");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("EJ2API");
 
 var app = builder.Build();
 
